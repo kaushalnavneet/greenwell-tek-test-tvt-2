@@ -13,7 +13,7 @@ spec:
     - name: task-two-step-four
       image: ubuntu
       env:
-        - name: BUILD_NUMBER
+        -   name: BUILD_NUMBER
           value: $(inputs.params.buildnumber)
         - name: TEXT_VAL
           value: $(params.text)
