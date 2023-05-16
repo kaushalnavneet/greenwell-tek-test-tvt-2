@@ -16,7 +16,7 @@ spec:
       env:
         - name: BUILD_NUMBER
           value: $(inputs.params.buildnumber)
-        - name: TEXT_VAL
+        -   name: TEXT_VAL
           value: $(params.text)
       nav: kaushal
       command: ['bash']
